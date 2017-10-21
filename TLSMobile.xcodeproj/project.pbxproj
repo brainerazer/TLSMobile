@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4796DDE11F9BB457001BBCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796DDE01F9BB457001BBCC6 /* AppDelegate.swift */; };
+		4796DDE31F9BB457001BBCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796DDE21F9BB457001BBCC6 /* ViewController.swift */; };
+		4796DDE61F9BB457001BBCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4796DDE41F9BB457001BBCC6 /* Main.storyboard */; };
+		4796DDE81F9BB457001BBCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4796DDE71F9BB457001BBCC6 /* Assets.xcassets */; };
+		4796DDEB1F9BB457001BBCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4796DDE91F9BB457001BBCC6 /* LaunchScreen.storyboard */; };
+		4796DDF61F9BB458001BBCC6 /* TLSMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796DDF51F9BB458001BBCC6 /* TLSMobileTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4796DDF21F9BB458001BBCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4796DDD51F9BB457001BBCC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4796DDDC1F9BB457001BBCC6;
+			remoteInfo = TLSMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4796DDDD1F9BB457001BBCC6 /* TLSMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLSMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4796DDE01F9BB457001BBCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4796DDE21F9BB457001BBCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4796DDE51F9BB457001BBCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4796DDE71F9BB457001BBCC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4796DDEA1F9BB457001BBCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4796DDEC1F9BB457001BBCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4796DDF11F9BB458001BBCC6 /* TLSMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLSMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4796DDF51F9BB458001BBCC6 /* TLSMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSMobileTests.swift; sourceTree = "<group>"; };
+		4796DDF71F9BB458001BBCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4796DDDA1F9BB457001BBCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4796DDEE1F9BB458001BBCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4796DDD41F9BB457001BBCC6 = {
+			isa = PBXGroup;
+			children = (
+				4796DDDF1F9BB457001BBCC6 /* TLSMobile */,
+				4796DDF41F9BB458001BBCC6 /* TLSMobileTests */,
+				4796DDDE1F9BB457001BBCC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4796DDDE1F9BB457001BBCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4796DDDD1F9BB457001BBCC6 /* TLSMobile.app */,
+				4796DDF11F9BB458001BBCC6 /* TLSMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4796DDDF1F9BB457001BBCC6 /* TLSMobile */ = {
+			isa = PBXGroup;
+			children = (
+				4796DDE01F9BB457001BBCC6 /* AppDelegate.swift */,
+				4796DDE21F9BB457001BBCC6 /* ViewController.swift */,
+				4796DDE41F9BB457001BBCC6 /* Main.storyboard */,
+				4796DDE71F9BB457001BBCC6 /* Assets.xcassets */,
+				4796DDE91F9BB457001BBCC6 /* LaunchScreen.storyboard */,
+				4796DDEC1F9BB457001BBCC6 /* Info.plist */,
+			);
+			path = TLSMobile;
+			sourceTree = "<group>";
+		};
+		4796DDF41F9BB458001BBCC6 /* TLSMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				4796DDF51F9BB458001BBCC6 /* TLSMobileTests.swift */,
+				4796DDF71F9BB458001BBCC6 /* Info.plist */,
+			);
+			path = TLSMobileTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4796DDDC1F9BB457001BBCC6 /* TLSMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4796DDFA1F9BB458001BBCC6 /* Build configuration list for PBXNativeTarget "TLSMobile" */;
+			buildPhases = (
+				4796DDD91F9BB457001BBCC6 /* Sources */,
+				4796DDDA1F9BB457001BBCC6 /* Frameworks */,
+				4796DDDB1F9BB457001BBCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLSMobile;
+			productName = TLSMobile;
+			productReference = 4796DDDD1F9BB457001BBCC6 /* TLSMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4796DDF01F9BB458001BBCC6 /* TLSMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4796DDFD1F9BB458001BBCC6 /* Build configuration list for PBXNativeTarget "TLSMobileTests" */;
+			buildPhases = (
+				4796DDED1F9BB458001BBCC6 /* Sources */,
+				4796DDEE1F9BB458001BBCC6 /* Frameworks */,
+				4796DDEF1F9BB458001BBCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4796DDF31F9BB458001BBCC6 /* PBXTargetDependency */,
+			);
+			name = TLSMobileTests;
+			productName = TLSMobileTests;
+			productReference = 4796DDF11F9BB458001BBCC6 /* TLSMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4796DDD51F9BB457001BBCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Bohdan Rybak";
+				TargetAttributes = {
+					4796DDDC1F9BB457001BBCC6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4796DDF01F9BB458001BBCC6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4796DDDC1F9BB457001BBCC6;
+					};
+				};
+			};
+			buildConfigurationList = 4796DDD81F9BB457001BBCC6 /* Build configuration list for PBXProject "TLSMobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4796DDD41F9BB457001BBCC6;
+			productRefGroup = 4796DDDE1F9BB457001BBCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4796DDDC1F9BB457001BBCC6 /* TLSMobile */,
+				4796DDF01F9BB458001BBCC6 /* TLSMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4796DDDB1F9BB457001BBCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4796DDEB1F9BB457001BBCC6 /* LaunchScreen.storyboard in Resources */,
+				4796DDE81F9BB457001BBCC6 /* Assets.xcassets in Resources */,
+				4796DDE61F9BB457001BBCC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4796DDEF1F9BB458001BBCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4796DDD91F9BB457001BBCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4796DDE31F9BB457001BBCC6 /* ViewController.swift in Sources */,
+				4796DDE11F9BB457001BBCC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4796DDED1F9BB458001BBCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4796DDF61F9BB458001BBCC6 /* TLSMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4796DDF31F9BB458001BBCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4796DDDC1F9BB457001BBCC6 /* TLSMobile */;
+			targetProxy = 4796DDF21F9BB458001BBCC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4796DDE41F9BB457001BBCC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4796DDE51F9BB457001BBCC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4796DDE91F9BB457001BBCC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4796DDEA1F9BB457001BBCC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4796DDF81F9BB458001BBCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4796DDF91F9BB458001BBCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4796DDFB1F9BB458001BBCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA3RYV7JE5;
+				INFOPLIST_FILE = TLSMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.TLSMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4796DDFC1F9BB458001BBCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA3RYV7JE5;
+				INFOPLIST_FILE = TLSMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.TLSMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4796DDFE1F9BB458001BBCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA3RYV7JE5;
+				INFOPLIST_FILE = TLSMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.TLSMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLSMobile.app/TLSMobile";
+			};
+			name = Debug;
+		};
+		4796DDFF1F9BB458001BBCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LA3RYV7JE5;
+				INFOPLIST_FILE = TLSMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.TLSMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLSMobile.app/TLSMobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4796DDD81F9BB457001BBCC6 /* Build configuration list for PBXProject "TLSMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4796DDF81F9BB458001BBCC6 /* Debug */,
+				4796DDF91F9BB458001BBCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4796DDFA1F9BB458001BBCC6 /* Build configuration list for PBXNativeTarget "TLSMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4796DDFB1F9BB458001BBCC6 /* Debug */,
+				4796DDFC1F9BB458001BBCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4796DDFD1F9BB458001BBCC6 /* Build configuration list for PBXNativeTarget "TLSMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4796DDFE1F9BB458001BBCC6 /* Debug */,
+				4796DDFF1F9BB458001BBCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4796DDD51F9BB457001BBCC6 /* Project object */;
+}
