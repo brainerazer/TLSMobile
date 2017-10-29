@@ -14,6 +14,7 @@
 		4796DDEB1F9BB457001BBCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4796DDE91F9BB457001BBCC6 /* LaunchScreen.storyboard */; };
 		4796DDF61F9BB458001BBCC6 /* TLSMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796DDF51F9BB458001BBCC6 /* TLSMobileTests.swift */; };
 		47F727171FA6564500BE4CE7 /* TLSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F727161FA6564500BE4CE7 /* TLSConnection.swift */; };
+		47F727191FA65A0D00BE4CE7 /* RandomUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F727181FA65A0D00BE4CE7 /* RandomUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4796DDF51F9BB458001BBCC6 /* TLSMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSMobileTests.swift; sourceTree = "<group>"; };
 		4796DDF71F9BB458001BBCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47F727161FA6564500BE4CE7 /* TLSConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSConnection.swift; sourceTree = "<group>"; };
+		47F727181FA65A0D00BE4CE7 /* RandomUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				4796DDE91F9BB457001BBCC6 /* LaunchScreen.storyboard */,
 				4796DDEC1F9BB457001BBCC6 /* Info.plist */,
 				47F727161FA6564500BE4CE7 /* TLSConnection.swift */,
+				47F727181FA65A0D00BE4CE7 /* RandomUtils.swift */,
 			);
 			path = TLSMobile;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				4796DDE31F9BB457001BBCC6 /* ViewController.swift in Sources */,
 				4796DDE11F9BB457001BBCC6 /* AppDelegate.swift in Sources */,
+				47F727191FA65A0D00BE4CE7 /* RandomUtils.swift in Sources */,
 				47F727171FA6564500BE4CE7 /* TLSConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

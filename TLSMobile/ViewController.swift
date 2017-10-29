@@ -8,27 +8,6 @@
 
 import UIKit
 
-extension Data {
-    func hexEncodedString() -> String {
-        return map { String(format: "%02hhx", $0) }.joined()
-    }
-}
-
-func generateRandomBytes() -> String? {
-    
-    var keyData = Data(count: 32)
-    let result = keyData.withUnsafeMutableBytes {
-        (mutableBytes: UnsafeMutablePointer<UInt8>) -> Int32 in
-        SecRandomCopyBytes(kSecRandomDefault, keyData.count, mutableBytes)
-    }
-    if result == errSecSuccess {
-        return keyData.hexEncodedString()
-    } else {
-        print("Problem generating random bytes")
-        return nil
-    }
-}
-
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var clientRandomTextField: UITextField!
     @IBOutlet weak var handshakePushButton: UIButton!
@@ -40,7 +19,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         
         clientRandomTextField.delegate = self
-        self.clientRandomHex = generateRandomBytes()
+        self.clientRandomHex = generateRandomBytes()?.hexEncodedString()
         self.clientRandomTextField.text = self.clientRandomHex
     }
 

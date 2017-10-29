@@ -30,4 +30,8 @@ class TLSConnection: NSObject {
         self.inputStream.open()
         self.outputStream.open()
     }
+    
+    func sendClientHello(_ randomBytes: Data) {
+        
+    }
 }
