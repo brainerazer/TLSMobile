@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var handshakePushButton: UIButton!
     
     var clientRandomHex: String?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -38,7 +38,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         clientRandomHex = textField.text
     }
-
-
+    
+    // Actions
+    @IBAction func performHandshake(_ sender: UIButton) {
+        let conn = TLSConnection()
+        conn.setupTCPConn("localhost", 44330)
+        conn.sendClientHello(clientRandomTextField.text!.fromHexToData)
+    }
+    
 }
 

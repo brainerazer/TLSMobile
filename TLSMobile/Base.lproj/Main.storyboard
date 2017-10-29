@@ -35,6 +35,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8WX-PJ-r5k">
                                         <rect key="frame" x="97.5" y="50.5" width="134" height="30"/>
                                         <state key="normal" title="Perform handshake"/>
+                                        <connections>
+                                            <action selector="performHandshake:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qcT-j7-Z14"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
