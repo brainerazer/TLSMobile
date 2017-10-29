@@ -32,6 +32,11 @@ class TLSConnection: NSObject {
     }
     
     func sendClientHello(_ randomBytes: Data) {
-        
+        let payload = TLSPayloadBytesGenerator.getClientHelloBytes(randomBytes)
+        sendDataToStream(payload)
+    }
+    
+    private func sendDataToStream(_ data : Data) {
+        _ = data.withUnsafeBytes { outputStream.write($0, maxLength: data.count) }
     }
 }
