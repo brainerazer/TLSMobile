@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var handshakePushButton: UIButton!
     
     var clientRandomHex: String?
+    var conn : TLSConnection?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         clientRandomTextField.delegate = self
         self.clientRandomHex = generateRandomBytes()?.hexEncodedString()
         self.clientRandomTextField.text = self.clientRandomHex
+        
+        conn = TLSConnection()
+        conn!.setupTCPConn("localhost", 44330)
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,9 +45,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // Actions
     @IBAction func performHandshake(_ sender: UIButton) {
-        let conn = TLSConnection()
-        conn.setupTCPConn("localhost", 44330)
-        conn.sendClientHello(clientRandomTextField.text!.fromHexToData)
+        conn!.sendClientHello(clientRandomTextField.text!.fromHexToData)
     }
     
 }
