@@ -14,8 +14,20 @@ class TLSConnection: NSObject {
     
     let maxReadLength = 4096
     
-    func setupTCPConn(_ hostname : String, _ port : Int) {
-        var readStream : Unmanaged<CFReadStream>
-        var writeStream : Unmanaged<CFWriteStream>
+    func setupTCPConn(_ hostname : String, _ port : UInt32) {
+        var readStream : Unmanaged<CFReadStream>?
+        var writeStream : Unmanaged<CFWriteStream>?
+        
+        CFStreamCreatePairWithSocketToHost(kCFAllocatorDefault, hostname as CFString, port,
+                                           &readStream, &writeStream)
+        
+        self.inputStream = readStream!.takeRetainedValue()
+        self.outputStream = writeStream!.takeRetainedValue()
+        
+        self.inputStream.schedule(in: .current, forMode: .commonModes)
+        self.outputStream.schedule(in: .current, forMode: .commonModes)
+        
+        self.inputStream.open()
+        self.outputStream.open()
     }
 }
